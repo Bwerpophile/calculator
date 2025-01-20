@@ -1,0 +1,41 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;  
+    width: 300px;
+    
+}
+
+.screen-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size:24px;
+}
+
+.pad-container {
+    display: flex;
+
+    justify-content: center;   
+}
+
+.numb-container {
+    display:flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.operator-container {
+    display: flex;
+    flex-direction: column;
+    width: 3%;
+    justify-content: space-between;
+}
+
+.pad-button {
+    width: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}

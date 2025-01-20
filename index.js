@@ -1,3 +1,7 @@
+let num1;
+let num2;
+let result;
+
 const add = function (a, b) {
     return a + b;
   };
@@ -14,7 +18,21 @@ const divide = function(a,b) {
     return a / b;
   }
 
-  console.log(divide(4,2));
-  console.log(multiply(4,2));
-  console.log(subtract(4,2));
-  console.log(add(4,2));
+  
+  for (let i = 9; i >= 0; i--) {
+    const numbContainer = document.querySelector('.numb-container');
+    const numberPad = document.createElement('div');
+    const numberTxt = 0+i;
+ 
+    numberPad.innerText = `${numberTxt}` ;
+    numberPad.classList.add('pad-button');
+
+    numbContainer.appendChild(numberPad);
+  }
+
+  let operate = function (fct, a, b) {
+    return fct(a,b)
+  }
+
+  console.log(operate(add, 1,3));
+  
