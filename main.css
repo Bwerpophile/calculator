@@ -15,7 +15,6 @@
 
 .pad-container {
     display: flex;
-
     justify-content: center;   
 }
 
@@ -31,6 +30,14 @@
     flex-direction: column;
     width: 20%;
     justify-content: space-between;
+}
+
+.clear {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
 }
 
 .operator {
