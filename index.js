@@ -21,7 +21,7 @@ const divide = function(a,b) {
   
   for (let i = 9; i >= 0; i--) {
     const numbContainer = document.querySelector('.numb-container');
-    const numberPad = document.createElement('div');
+    const numberPad = document.createElement('button');
     const numberTxt = 0+i;
  
     numberPad.innerText = `${numberTxt}` ;

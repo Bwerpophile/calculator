@@ -29,8 +29,12 @@
 .operator-container {
     display: flex;
     flex-direction: column;
-    width: 3%;
+    width: 20%;
     justify-content: space-between;
+}
+
+.operator {
+    width:100% !important ;
 }
 
 .pad-button {
